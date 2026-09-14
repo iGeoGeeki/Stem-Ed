@@ -1,7 +1,6 @@
 <script lang="ts">
 	import {
-		Mail, Lock, Eye, EyeOff, ArrowRight, Github, Twitter, Facebook,
-		Mountain, Check
+		Mail, Lock, Eye, EyeOff, ArrowRight, Mountain, Check
 	} from 'lucide-svelte';
 
 	let email = '';

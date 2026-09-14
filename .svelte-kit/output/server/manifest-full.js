@@ -10,12 +10,15 @@ return {
 	assets: new Set([]),
 	mimeTypes: {},
 	_: {
-		client: {"start":"_app/immutable/entry/start.e4943cf2.js","app":"_app/immutable/entry/app.0b23d618.js","imports":["_app/immutable/entry/start.e4943cf2.js","_app/immutable/chunks/scheduler.ba4dd0f0.js","_app/immutable/chunks/singletons.feb776ee.js","_app/immutable/entry/app.0b23d618.js","_app/immutable/chunks/scheduler.ba4dd0f0.js","_app/immutable/chunks/index.78e357c5.js"],"stylesheets":[],"fonts":[]},
+		client: {start:"_app/immutable/entry/start.C7_rE2-H.js",app:"_app/immutable/entry/app.CNcfhJqB.js",imports:["_app/immutable/entry/start.C7_rE2-H.js","_app/immutable/chunks/BO-pyGhe.js","_app/immutable/chunks/DZ-SKHGY.js","_app/immutable/entry/app.CNcfhJqB.js","_app/immutable/chunks/DZ-SKHGY.js","_app/immutable/chunks/xihTtKlq.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
 			__memo(() => import('./nodes/2.js'))
 		],
+		remotes: {
+			
+		},
 		routes: [
 			{
 				id: "/",
@@ -25,10 +28,12 @@ return {
 				endpoint: null
 			}
 		],
+		prerendered_routes: new Set([]),
 		matchers: async () => {
 			
 			return {  };
-		}
+		},
+		server_assets: {}
 	}
 }
 })();
